@@ -14,17 +14,17 @@
 
 </div>
 
-<a href="https://github.com/Kaweees/modern-python">
+<a href="https://github.com/Kaweees/mlp">
   <img alt="Python Logo" src="assets/img/python.png" align="right" width="150">
 </a>
 
 <div align="left">
-  <h1><em><a href="https://miguelvf.dev/blog/dotfiles/compendium">~modern-python</a></em></h1>
+  <h1><em><a href="https://miguelvf.dev/blog/dotfiles/compendium">~mlp</a></em></h1>
 </div>
 
 <!-- ABOUT THE PROJECT -->
 
-A template for developing production-ready Python applications.
+Various implementations of a multilayer perceptron (MLP) in different languages.
 
 ### Built With
 
@@ -47,8 +47,8 @@ To get a local copy of the project up and running on your machine, follow these 
 1. Clone the project repository
 
    ```sh
-   git clone https://github.com/Kaweees/modern-python.git
-   cd modern-python
+   git clone https://github.com/Kaweees/mlp.git
+   cd mlp
    ```
 
 2. Install the virtual environment and pre-commit hooks
@@ -68,7 +68,7 @@ To get a local copy of the project up and running on your machine, follow these 
 ## Project Structure
 
 ```sh
-modern-python/
+mlp/
 ├── .github/                       - GitHub Actions CI/CD workflows
 ├── scripts/                       - Standalone scripts
 ├── shared/
@@ -88,12 +88,12 @@ The source code for this project is distributed under the terms of the MIT Licen
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/Kaweees/modern-python.svg?style=for-the-badge
-[contributors-url]: https://github.com/Kaweees/modern-python/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Kaweees/modern-python.svg?style=for-the-badge
-[forks-url]: https://github.com/Kaweees/modern-python/network/members
-[stars-shield]: https://img.shields.io/github/stars/Kaweees/modern-python.svg?style=for-the-badge
-[stars-url]: https://github.com/Kaweees/modern-python/stargazers
+[contributors-shield]: https://img.shields.io/github/contributors/Kaweees/mlp.svg?style=for-the-badge
+[contributors-url]: https://github.com/Kaweees/mlp/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Kaweees/mlp.svg?style=for-the-badge
+[forks-url]: https://github.com/Kaweees/mlp/network/members
+[stars-shield]: https://img.shields.io/github/stars/Kaweees/mlp.svg?style=for-the-badge
+[stars-url]: https://github.com/Kaweees/mlp/stargazers
 
 <!-- MARKDOWN SHIELD BAGDES & LINKS -->
 <!-- https://github.com/Ileriayo/markdown-badges -->
