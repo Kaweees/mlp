@@ -9,12 +9,19 @@ requires-python = ">=3.10"
 readme = "README.md"
 license = { file = "LICENSE" }
 
-dependencies = ["utils", "core", "jax-mlp", "typer>=0.12.5"]
+dependencies = [
+  "utils",
+  "python-mlp",
+  "jax-mlp",
+  "triton-mlp; platform_system != 'Darwin'",
+  "typer>=0.12.5",
+]
 
 [tool.uv.sources]
 utils = { workspace = true }
-core = { workspace = true }
+python-mlp = { workspace = true }
 jax-mlp = { workspace = true }
+triton-mlp = { workspace = true }
 
 [tool.uv.workspace]
 members = ["shared/*", "src/*"]
