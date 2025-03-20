@@ -2,7 +2,6 @@
 # requires-python = ">=3.11"
 # dependencies = [
 #     "typer>=0.12.5",
-#     "core",
 # ]
 # ///
 import typer
